@@ -1,16 +1,27 @@
 # Create aio app
 
-
 [![Build Status](https://travis-ci.com/aio-libs/create-aio-app.svg?branch=master)](https://travis-ci.com/aio-libs/create-aio-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Gitter chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aio-libs/Lobby)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/aio-libs/create-aio-app/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 [![PyPI version](https://badge.fury.io/py/create-aio-app.svg)](https://badge.fury.io/py/create-aio-app)
 
-The tool that lets you bootstrap aiohttp application with best practices ready for development.
+The tool that lets you bootstrap an aiohttp (Asynchronous IO HTTP) application with best practices ready for development.
 
 **Here is a screenshot of our interfaces**
 ![Example](https://raw.githubusercontent.com/aio-libs/create-aio-app/master/assets/assets.png)
+
+## Features
+
+- Supports both Client and HTTP Server.
+- Supports both Server WebSockets and Client WebSockets out-of-the-box without the Callback Hell.
+- Web-server has Middlewares, Signals and pluggable routing.
+
+## Motivation
+
+Our motivation to develop this was how we initially saw this problem...
+And then started implementing it with these features...
+Because...
 
 ## Installation
 
@@ -43,8 +54,12 @@ make run # start your project
 
 [Here is a link to all the make commands.](https://create-aio-app.readthedocs.io/pages/commands.html)
 
-
 Then, navigate in your browser to `http://localhost:8080/`
+
+## Starting examples
+
+- [Client example](https://docs.aiohttp.org/en/stable/index.html#client-example)
+- [Server example](https://docs.aiohttp.org/en/stable/index.html#server-example)
 
 ## Salient Features
 
@@ -73,11 +88,25 @@ Then, navigate in your browser to `http://localhost:8080/`
 
 ## Contributing
 
-`create-aio-app` is a boilerplate from aiohttp community for aiohttp 
-community. Feel free to make any suggestions on the issues or 
-create a pull request. We will be very happy 😀. 
-See [CONTRIBUTING.md](https://github.com/aio-libs/create-aio-app/blob/master/CONTRIBUTING.md) for more information about 
+`create-aio-app` is a boilerplate from aiohttp community for aiohttp
+community. Feel free to make any suggestions on the issues or
+create a pull request. We will be very happy 😀.
+See [CONTRIBUTING.md](https://github.com/aio-libs/create-aio-app/blob/master/CONTRIBUTING.md) for more information about
 how to contribute to `create-aio-app`.
+Authored by the following organization/amazing individuals: ...
+Fix badge above.
+
+## Future Features
+
+We plan to implement better these functionalities:
+
+- 1. First example..
+- 2. Secondly, to...
+- 3. Lastly, to...
+
+## Authored by:
+
+See list of [contributors](https://github.com/aio-libs/create-aio-app/blob/master/CONTRIBUTORS.txt) to this project.
 
 ## License
 
